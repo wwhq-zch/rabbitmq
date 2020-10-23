@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  rabbitmq:
+    host: 192.168.153.168
+    port: 5672
+    virtual-host: /zch
+    username: admin
+    password: 123456
+    publisher-confirm-type: simple # SIMPLE-同步确认（阻塞） CORRELATED-异步确认
+    publisher-returns: true # 确认消息是否到达队列
