@@ -11,5 +11,7 @@ public class BranchTest {
 
         System.out.println("测试代码切换");
 
+        System.out.println("123");
+
     }
 }
